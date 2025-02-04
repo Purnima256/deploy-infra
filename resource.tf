@@ -1,4 +1,4 @@
 resource "local_file" "file" {
-  filename = "test.txt"
+  filename = "var.filename"
   content = "Welcome to Devops"
 }
